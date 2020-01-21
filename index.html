@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        </head>
+  <body>
+    <header id="header">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLfUn7opdIudkQiXP2lBZnx2hjAC7Dy5l3U04ICH2sAOP5-CXERA&s" id="header-img">
+      <h1 id="title">Majalengka Ketchup</h1>
+     <nav id="nav-bar">
+       <ul>
+         <li><a href="#features" class="nav-link">Features</a></li>
+         <li><a href="#testimony" class="nav-link">Testimony</a></li>
+         <li><a href="#product" class="nav-link">Product</a></li>
+         <li><a href="#order" class="nav-link">Order</a></li>
+           
+       </ul>
+     </nav> 
+    </header> 
+    <br>
+    <main>
+      <div class="prod-desc">
+        <p>"Ketchup is one of the legendary superior products in Majalengka, because it has been traditionally produced for decades. Majalengka Ketchup has a distinctive taste image and is much sought after by the public."</p>
+      </div>
+      <div class="prod-desc2">
+        <p>"Ketchup is one of the legendary superior products in Majalengka, because it has been traditionally produced for decades. Majalengka Ketchup has a distinctive taste image and is much sought after by the public."</p>
+      </div>
+      <div class="features-wrapper">
+     <section id="features">
+       <h2>Features</h2>
+       <div class="feature-grid">
+       <div id="authencity">
+      <img src="https://image.flaticon.com/icons/png/512/661/661772.png" height="96" width="96" alt="authencity">
+         <div class="feature-content">
+           <p><div class="header3">Authencity</div><br>Besides having a high taste it also lasts up to 2 years even without preservatives.
+It turns out that the recipe for soy sauce can last up to 2 years, because when processing large amounts of salt mix.</p>
+         </div>
+       </div>
+    <div id="free-shipping">
+      <img src="https://image.flaticon.com/icons/png/512/1712/1712195.png" height="96" width="96">
+      <div  class="feature-content">
+      <p><div class="header3">Free Shipping</div><br> Free shipping for minimum 3 pack purchase
+      </p>
+       </div>
+     </div>
+      <div id="health-ben">
+        
+        <img src="https://image.flaticon.com/icons/png/512/1319/1319054.png" height="96" width="96" alt="health benefit">
+        <div  class="feature-content">
+          <p><div class="header3">Health Benefits</div>Soy sauce is generally made with the addition of palm sugar or coconut sugar which is safer for health. Palm sugar has a lower glycemic index (IG) than sugar, which is at number 35. With IG levels below 55, consumption of palm sugar will not have a major impact on the rise in blood sugar.</p>
+        </div>
+       </div>
+        </section>
+      </div>
+        
+        <div id="testimony">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/JPgXaYtGbNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+        </div>
+  <div id="product" class="product-wrapper">
+    <h2>Product</h2>
+    
+    <div class="prod-container">
+      
+      <div class="prod-one">
+        <h3 id="prod1">200 ml</h3>
+      <img src="https://ecs7.tokopedia.net/img/cache/700/product-1/2019/10/16/7032008/7032008_c0b1e2b1-52aa-4b43-b89a-eb6af91f8229_720_720.jpg" width=80%><br>
+        <form action="">
+          <button onclick="fillText()">Buy</button>
+        </form>
+      </div>
+      <div class="prod-one">
+        <h3 id="prod2">135 ml</h3>
+      <img src="https://ecs7.tokopedia.net/img/cache/700/product-1/2019/10/16/7032008/7032008_d8d1d0ca-13ba-48fc-b18c-1d08ab2187df_720_720.jpg" width=80%><br>
+        <form">
+          <button onclick="fillText2()">Buy</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+    <div id="collapsible">
+<section id="order">
+        <h2><a href="#order">Order</a></h2>
+        <form class="form" id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+          <label>Product</label><br>
+          <input type="text" id="product-input" placeholder="click buy" disabled><br>
+          <label>Name</label><br>
+          <input type="text" class="input" placeholder="enter your name"><br>
+          <label>Email</label><br>
+          <input type="email" id="email" name="email" class="input" value="email" placeholder="eg: name@mail.com"><br>
+          <label>Phone Number</label><br>
+          <select>
+            <option value="62" selected>ID +62</option>
+             <option value="65" selected>SG +65</option>
+             <option value="81" selected>JP +81</option>
+             <option value="44" selected>GB +44</option>
+             <option value="1" selected>US +1</option>
+          </select>
+          <input type="tel" class="input" placeholder="eg: +62 0000 0000 0000" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"><br>
+          <label>Address</label><br>
+          <textarea placeholder="place your address here" cols="50" rows="15"></textarea><br>
+          <input type="submit" value="Order now !" class="button" id="submit">
+        </form>                                      </section>
+  </div>
+        
+    </main>
+  </body>  
+<html>

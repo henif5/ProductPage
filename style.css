@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Rye&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+body{
+  background-color:yellow;
+}
+nav{
+  float
+  position:fixed;
+}
+nav > ul{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+nav ul li{
+  
+  list-style-type:none;
+  margin:1em 1em 0em 1em;
+  font-size:13pt;
+  
+}
+header{
+  width:100%;
+}
+#header{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color:red;
+ position:fixed;
+}
+#header-img{
+  width:100px;
+  height:100px;
+}
+#title{
+  font-family: 'Rye', cursive;
+  color:white;
+  margin-right:50%;
+  font-size:20pt;
+  margin-top:1em;
+}
+#nav-bar{
+  
+}
+
+.nav-link{
+  color:white;
+  text-decoration:none;
+  font-family: 'Calistoga', cursive;
+}
+
+.prod-desc{
+  margin-top:-1%;
+  font-family: 'Roboto Slab', serif;
+  padding:3px;
+  background-color:white;
+  font-style:italic;
+}
+
+.prod-desc2{
+  margin-top:2%;
+  font-family: 'Roboto Slab', serif;
+  padding:3px;
+  background-color:white;
+  font-style:italic;
+}
+
+#features{
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+.features-wrapper{
+  width:75%;
+  margin-top:1em;
+  margin-bottom:1em;
+  padding:0.5em;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.feature-content{ 
+  margin-left:2%;
+  margin-bottom:1%;
+}
+#authencity{
+  display:flex; 
+}
+.header3{
+  font-size:15pt;
+  font-weight:bold;
+}
+
+#free-shipping{
+  display:flex; 
+}
+
+#health-ben{
+  display:flex;
+}
+
+#order{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin:auto;
+  width:70%;
+}
+.button{
+  width:100%;
+  border:none;
+  padding:1em;
+  background-color:#3ae069;
+  color:white;
+}
+
+.button:hover{
+  background-color:#abe0b9;
+  color:#565e58;
+  transition:1s;
+}
+
+#testimony{
+  width:75%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#product{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.product-wrapper{
+  width:75%;
+  margin-left:auto;
+  margin-right:auto; 
+}
+
+.prod-container{
+  display:inline-flex;
+}
+.prod-one{ 
+  padding:2px;;
+  width:30%;
+  text-align:center;
+  margin:auto;
+  background-color:red;
+}
+
+.prod-form{
+  margin-bottom:auto;
+}
+
+#collapsible section form{
+ display: none;
+}
+
+#collapsible a{
+  text-decoration:none;
+}
+
+#collapsible a:hover{
+  text-decoration:underline;
+  
+}
+
+#collapsible section:target form{
+  display:block;
+}
+
+@media (max-width: 600px){
+  #header{
+    flex-wrap:wrap;
+    background-color:blue;
+    text-align:center;
+  }
+  
+  #nav-bar ul{
+    display:block;
+  }
+}
